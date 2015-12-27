@@ -87,7 +87,6 @@ int numericalValueOfDigitCharacter(char c)
 //converts char * into an octal, decimal or hexadecimal integer, if valid
 //validity specified by this regular expression:
 //[0-7]+[bB] | [0-9a-fA-F]+[hH] | ((+|–)?[0-9]+)
-//THE STRING MUST BE NULL TERMINATED.
 int lexicalAnalyser(char * numberChars)
 {
 	//State 1: Starting State
